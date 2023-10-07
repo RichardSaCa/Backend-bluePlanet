@@ -1,2 +1,9 @@
-package gm.enventarios.servicio.dto;public class Login {
+package gm.enventarios.servicio.dto;
+
+import lombok.Data;
+
+@Data
+public class Login {
+    private String username;
+    private String password;
 }
